@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MatLogg.Application/1.0.0": {
+        "dependencies": {
+          "MatLogg.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MatLogg.Application.dll": {}
+        }
+      },
+      "MatLogg.Domain/1.0.0": {
+        "runtime": {
+          "MatLogg.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MatLogg.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MatLogg.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

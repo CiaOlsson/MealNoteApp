@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Food Log";
+}
+
+@model MatLogg.Application.DTOs.SaveFoodDTO;
+
+<div class="text-center">
+    <h1 class="display-4">Food Log</h1>
+    <p>Mata in mat.</p>
+</div>
+
+<form asp-action="SubmitAddFoodForm" asp-controller="Home">
+    <label asp-for="Name" class="form-label mt-4">Livsmedel</label>
+    <input class="form-control" type="search" asp-for="Name" />
+
+    <label asp-for="Amount" class="form-label mt-4">Mängd</label>
+    <input class="form-control" type="number" asp-for="Amount"/>
+
+    <label asp-for="Unit" class="form-label mt-4">Enhet</label>
+    <select class="form-select" asp-for="Unit">
+        <option value="">Pick one</option>
+        <option value="1">gram</option>
+        <option value="2">styck</option>
+        <option value="3">dl</option>
+    </select>
+    
+    <button class="btn btn-primary mt-4" type="submit">Lägg till</button>
+
+</form>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatLogg.UI", "MatLogg.UI\MatLogg.UI.csproj", "{09C3585E-022B-4ADB-9F46-B75FD711176F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6E36C99-9B2B-4C60-B299-33F8A3623422} = {A6E36C99-9B2B-4C60-B299-33F8A3623422}
+		{EAD302BD-1637-4762-89B0-7D4292DD0840} = {EAD302BD-1637-4762-89B0-7D4292DD0840}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatLogg.Infrastructure", "MatLogg.Infrastructure\MatLogg.Infrastructure.csproj", "{A6E36C99-9B2B-4C60-B299-33F8A3623422}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EAD302BD-1637-4762-89B0-7D4292DD0840} = {EAD302BD-1637-4762-89B0-7D4292DD0840}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatLogg.Application", "MatLogg.Application\MatLogg.Application.csproj", "{EAD302BD-1637-4762-89B0-7D4292DD0840}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatLogg.Domain", "MatLogg.Domain\MatLogg.Domain.csproj", "{81EF49F9-CFDA-45E9-B31B-265F44DCBAA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{629741AD-751E-4800-A064-1D2FC2E1C69B}"
+	ProjectSection(SolutionItems) = preProject
+		ToDo.txt = ToDo.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09C3585E-022B-4ADB-9F46-B75FD711176F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C3585E-022B-4ADB-9F46-B75FD711176F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C3585E-022B-4ADB-9F46-B75FD711176F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C3585E-022B-4ADB-9F46-B75FD711176F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E36C99-9B2B-4C60-B299-33F8A3623422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E36C99-9B2B-4C60-B299-33F8A3623422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E36C99-9B2B-4C60-B299-33F8A3623422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E36C99-9B2B-4C60-B299-33F8A3623422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD302BD-1637-4762-89B0-7D4292DD0840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD302BD-1637-4762-89B0-7D4292DD0840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD302BD-1637-4762-89B0-7D4292DD0840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD302BD-1637-4762-89B0-7D4292DD0840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EF49F9-CFDA-45E9-B31B-265F44DCBAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EF49F9-CFDA-45E9-B31B-265F44DCBAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EF49F9-CFDA-45E9-B31B-265F44DCBAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EF49F9-CFDA-45E9-B31B-265F44DCBAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E270BA2-94A5-4211-8826-4F44C2A25D4D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\Cissi\Documents\EgnaProject\MatLogg\MatLogg.Domain\bin\Debug\net8.0\MatLogg.Domain.deps.json
+C:\Users\Cissi\Documents\EgnaProject\MatLogg\MatLogg.Domain\bin\Debug\net8.0\MatLogg.Domain.dll
+C:\Users\Cissi\Documents\EgnaProject\MatLogg\MatLogg.Domain\bin\Debug\net8.0\MatLogg.Domain.pdb
+C:\Users\Cissi\Documents\EgnaProject\MatLogg\MatLogg.Domain\obj\Debug\net8.0\MatLogg.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cissi\Documents\EgnaProject\MatLogg\MatLogg.Domain\obj\Debug\net8.0\MatLogg.Domain.AssemblyInfoInputs.cache
+C:\Users\Cissi\Documents\EgnaProject\MatLogg\MatLogg.Domain\obj\Debug\net8.0\MatLogg.Domain.AssemblyInfo.cs
+C:\Users\Cissi\Documents\EgnaProject\MatLogg\MatLogg.Domain\obj\Debug\net8.0\MatLogg.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Cissi\Documents\EgnaProject\MatLogg\MatLogg.Domain\obj\Debug\net8.0\MatLogg.Domain.dll
+C:\Users\Cissi\Documents\EgnaProject\MatLogg\MatLogg.Domain\obj\Debug\net8.0\refint\MatLogg.Domain.dll
+C:\Users\Cissi\Documents\EgnaProject\MatLogg\MatLogg.Domain\obj\Debug\net8.0\MatLogg.Domain.pdb
+C:\Users\Cissi\Documents\EgnaProject\MatLogg\MatLogg.Domain\obj\Debug\net8.0\ref\MatLogg.Domain.dll
